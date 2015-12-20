@@ -10,10 +10,11 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include "common.h"
 
 int main(void) {
 	/* prints !!!Hello World!!! */
-	puts("!!!Hello World!!!");
+	LOGINFO("!!!Hello World!!!");
 
 	return EXIT_SUCCESS;
 }
