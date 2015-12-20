@@ -17,7 +17,7 @@ int main(void) {
 	int a = 0;
 	a++;
 
-	LOGINFO("a=%d",a);
+	LOGINFO("var a=%d",a);
 
 
 	return EXIT_SUCCESS;
