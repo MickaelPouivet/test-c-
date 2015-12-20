@@ -13,8 +13,12 @@
 #include "common.h"
 
 int main(void) {
-	/* prints !!!Hello World!!! */
-	LOGINFO("!!!Hello World!!!");
+
+	int a = 0;
+	a++;
+
+	LOGINFO("a=%d",a);
+
 
 	return EXIT_SUCCESS;
 }
