@@ -15,9 +15,10 @@
 int main(void) {
 
 	int a = 0;
+	LOGINFO("before  a=%d", a);
 	a++;
 
-	LOGINFO(" a=%d", a);
+	LOGINFO("after a=%d", a);
 
 	return EXIT_SUCCESS;
 }
