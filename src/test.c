@@ -15,7 +15,7 @@
 int main(void) {
 
 	int a = 0;
-	LOGINFO("before  a=%d", a);
+	LOGINFO("before  a = %d", a);
 	a++;
 
 	LOGINFO("after a=%d", a);
